@@ -1,17 +1,16 @@
 <template>
   <v-container>
-    <ProductList />
+    <RestaurantList />
   </v-container>
 </template>
 
 <script>
-  import ProductList from '@/components/ProductList.vue' //ProductList.vueをインポート
+import RestaurantList from '@/components/RestaurantList.vue'
 
-  export default {
-    name: 'HomeView',
-
-    components: {
-      ProductList,
-    },
+export default {
+  name: 'HomeView',
+  components: {
+    RestaurantList
   }
+}
 </script>
